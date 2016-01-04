@@ -6,7 +6,7 @@ $select2-map: sprite-map('icons/select2/*.png', $spacing: 70px);
 	*{
 		outline: none !important;
 	}
-}
+
 
 .select2-selection__arrow{
 	b{
@@ -51,6 +51,7 @@ $select2-map: sprite-map('icons/select2/*.png', $spacing: 70px);
 }
 
 .select2-results__option--highlighted{
-	color: #333 !important;
+	background-color: #333 !important;
 	@include open-sans(semibold);
+}
 }

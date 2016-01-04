@@ -26,9 +26,14 @@ $black: #333333;
 $orange: #ff6600;
 $grey: #dee1e4;
 
+
 /*------------------ plugins --------------------*/
 
 @import "_plugins/**/*";
+
+/*----------- widgets -----------*/
+@import "_widgets/**/*";
+
 
 /*----------- sections ------------*/
 
@@ -43,6 +48,7 @@ $grey: #dee1e4;
 @import "_sections/_attention";
 @import "_sections/_footer";
 
-/*----------- widgets -----------*/
-@import "_widgets/**/*";
+
+
+
 
