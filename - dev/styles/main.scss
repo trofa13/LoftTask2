@@ -4,6 +4,10 @@
 
 @import "_misc/normalize";
 
+/* --------- fonts --------- */
+
+@import "_misc/fonts";
+
 /* --------- mixins --------- */
 
 @import "_misc/mixins";
@@ -12,4 +16,33 @@
 
 @import "_misc/adjustment";
 
+/*---------- misc icons sprite -----------*/
+
+$misc-sprite: sprite-map('icons/_misc/*.png', $spacing: 70px);
+
+/*------------- common colors --------------*/
+
+$black: #333333;
+$orange: #ff6600;
+$grey: #dee1e4;
+
+/*------------------ plugins --------------------*/
+
+@import "_plugins/**/*";
+
+/*----------- sections ------------*/
+
+@import "_sections/_header";
+@import "_sections/_nav";
+@import "_sections/_breadcrumbs";
+@import "_sections/_content";
+@import "_sections/_sidebar";
+@import "_sections/_sort";
+@import "_sections/_products";
+@import "_sections/_pagination";
+@import "_sections/_attention";
+@import "_sections/_footer";
+
+/*----------- widgets -----------*/
+@import "_widgets/**/*";
 

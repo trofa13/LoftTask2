@@ -36,6 +36,7 @@
 ehthumbs.db
 Thumbs.db
 
+/bower_components
 /.sass-cache
 /node_modules
 /- dev/bower
